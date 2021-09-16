@@ -1,0 +1,39 @@
+.header{
+    position: relative;
+    width: 100%;
+    height: 101px;
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+}
+span,.icon{
+    position: absolute;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.title{
+    margin: 0;
+    margin-left: 10%;
+    font-size: 24px;
+    font-family: Jubilat ,Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.shop{
+    right: 22%;
+    font-size: 18px;
+    font-family: Raleway ,Verdana, Geneva, Tahoma, sans-serif ;
+    color: #707070;
+}
+.collection{
+    right: 15%;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Raleway ,Verdana, Geneva, Tahoma, sans-serif ;
+}
+.icon{
+    right: 10%;
+
+
+}
+
