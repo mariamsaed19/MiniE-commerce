@@ -1,0 +1,11 @@
+@import "../../Style-helpers/Functions-helper.scss";
+.customBtn{
+    position: absolute;
+    height: 80px;
+    width: 320px;
+    @include button-text(18px , 100 , $main-font);
+    border-radius: 96px;
+    border: none;
+    margin: 100px;
+    left: 30%;
+}

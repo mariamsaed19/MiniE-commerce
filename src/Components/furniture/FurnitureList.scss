@@ -1,8 +1,12 @@
+@import "../../Style-helpers/Functions-helper.scss";
 .container{
-    width: 90%;
+    position: relative;
+    margin-bottom: 20%;
+}
+.listcontainer{
+    width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
-    margin-right: auto;
-    margin-left: auto;
+    @include center();
 }

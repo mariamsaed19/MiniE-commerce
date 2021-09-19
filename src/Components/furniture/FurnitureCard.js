@@ -1,7 +1,7 @@
+import ShowButton from "../Buttons/ShowButton";
 import "./FurnitureCard.scss";
 const FurnitureCard = (props) => {
   const image = require(`../../assets/${props.item.image}`).default
- // console.log(props.item.id)
   return (
     <div
       className="card"
@@ -11,8 +11,8 @@ const FurnitureCard = (props) => {
       }}
     >
       <div className="f-title"> {props.item.title} </div>
-      <img src={image} className="f-img" alt="furniture" />
-      <button className="bu"> show more </button>
+      <img src={image} className="f-img" alt="furniture" style={{width : props.item.span === 1 ?"292px": "600px"}} />
+      <ShowButton onClick={props.onClick}/>
     </div>
   );
 };

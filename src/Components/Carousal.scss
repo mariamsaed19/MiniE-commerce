@@ -1,6 +1,40 @@
+@import "../Style-helpers/Functions-helper.scss";
 .holder{
     margin-bottom: 5px;
     background-color: #B0D5D8;
     width: 100%;
     height: 980px;
+}
+.product-holder{
+    margin: 50px;
+}
+.product-img{
+    width: 630px;
+    height: 630px;
+    display: block;
+    @include center();
+}
+.product-type{
+    @include button-text(24px , 100 , $side-font);
+}
+.product-name{
+display: inline;
+@include button-text(48px , bolder , $main-font);
+color: black;
+}
+.product-price{
+    color: black;
+    @include button-text(24px , 100 , $main-font);
+}
+.product-buy{
+    
+        position: absolute;
+        width: 260px;
+        height: 55px;
+        margin-top: 10px;
+        left: 50%;
+        @include button-text(24px , bold , $main-font);
+        border-radius: 96px;
+        border: none;
+    
 }

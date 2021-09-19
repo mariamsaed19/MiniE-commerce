@@ -1,0 +1,20 @@
+.lookbook-holder{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    margin-left: 18%;
+    margin-top: 20px;
+}
+.lookbook-img {
+    width: 430px;
+    height: 120px;
+}
+.lookbook-icons{
+    display: grid;
+    grid-template-rows: auto auto auto;
+
+}
+.lookbook-icons img{
+    width: 22px;
+    height: 22px;
+}

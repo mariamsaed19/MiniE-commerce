@@ -1,0 +1,30 @@
+@import "../../Style-helpers/Functions-helper.scss";
+
+.btn-container{
+    width: 150px;
+    height: 64px;
+    display:inline-flex;
+    align-items: center;
+    margin-top: 25px;
+    background: none;
+    border: none;
+    @include center() ;
+}
+.circle{
+    background-color: #FFFFFF;
+    width: 64px;
+    height: 64px;
+    text-align: right;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.btn-text{
+    
+    margin-left: 32px;
+    @include button-text(17px , bold , $main-font);
+
+}
+.arrow{
+    color: black;
+    margin-left: 25px;
+}

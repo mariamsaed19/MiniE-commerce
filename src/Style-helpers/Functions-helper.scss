@@ -1,0 +1,13 @@
+/*used fonts*/ 
+$main-font : Raleway;
+$side-font : Maiandra GD;
+
+@mixin button-text($size , $weight , $type) {
+    font-size: $size;
+    font-weight: $weight;
+    font-family: $type ,Verdana, Geneva, Tahoma, sans-serif ;
+}
+@mixin center {
+    margin-left: auto;
+    margin-right: auto;
+}

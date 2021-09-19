@@ -1,0 +1,49 @@
+@import "../../../Style-helpers/Functions-helper.scss";
+.info-holder{
+    position: relative;
+    background-color: #FFFFFF;
+}
+.intro{
+    width:430px;
+    height: 131px;
+    @include center();
+    margin-top: 50px;
+}
+.intro h4{
+    margin-bottom: 30px;
+    @include button-text(18px,100,$side-font)
+}
+.intro p{
+    @include button-text(16px,100,$main-font)
+}
+.description-holder{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 430px;
+    @include center();
+    margin-top: 50px;
+}
+.description-holder ul{
+    list-style-type: none;
+    padding: 0;
+}
+.description-holder h4{
+    margin-bottom: 25px;
+    @include button-text(18px,50,$side-font);
+    grid-column: span 2;
+}
+.description-holder h2{
+    color: #404040;
+    display: inline;
+    @include button-text(16px,bold,$main-font)
+}
+.description-holder text{
+    display: inline;
+    color: #404040;
+    @include button-text(16px,100,$main-font);
+    margin-left: 15%;
+}
+.divider-line{
+    grid-column: span 2;
+    opacity: 0.7;
+}
